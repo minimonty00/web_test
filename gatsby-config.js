@@ -1,10 +1,3 @@
-module.exports = {
-  siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
-  },
-  plugins: [],
-};
 // stackbit.config.js
 import { ContentfulContentSource } from "@stackbit/cms-contentful";
 
@@ -19,3 +12,12 @@ export default {
   ]
   // ...
 };
+
+module.exports = {
+  siteMetadata: {
+    title: `Gatsby Sydney Ecommerce Theme`,
+    siteUrl: `https://jamm.matter.design`,
+  },
+  plugins: [],
+};
+
